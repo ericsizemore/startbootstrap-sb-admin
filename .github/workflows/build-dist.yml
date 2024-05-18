@@ -31,12 +31,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        cache-dependency-path: package-lock.json
     - run: npm ci
     - run: npm run build
     - name: "Upload the dist artifact from Node ${{ matrix.node-version }}"
       uses: actions/upload-artifact@v4
       with:
-         name: startbootstrap-sb-admin-${{ matrix.node-version }}
+         name: startbootstrap-sb-admin-nodeV${{ matrix.node-version }}
          path: dist/
          compression-level: 1
          if-no-files-found: error
