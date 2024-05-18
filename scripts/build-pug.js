@@ -1,5 +1,5 @@
 'use strict';
-const upath = require('upath');
+const upath = require('@ewizardjs/upath');
 const sh = require('shelljs');
 const renderPug = require('./render-pug');
 

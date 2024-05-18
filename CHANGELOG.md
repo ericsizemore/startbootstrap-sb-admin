@@ -33,6 +33,7 @@ v20.11.1
   * Updated `Charts.js` to 4.4.1
     * Updated `assests/demo/chart-*-demo.js` files as a result.
   * Updated `fontawesome` to 6.5.1
+  * Replaced `upath` with `@ewizardjs/upath` v3.0.0
   * Updated copyright year to 2024.
 
   ##### Addressing Bootstrap Deprecations

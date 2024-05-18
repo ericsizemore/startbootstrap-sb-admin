@@ -2,7 +2,7 @@
 
 const _ = require('lodash');
 const chokidar = require('chokidar');
-const upath = require('upath');
+const upath = require('@ewizardjs/upath');
 const renderAssets = require('./render-assets');
 const renderPug = require('./render-pug');
 const renderScripts = require('./render-scripts');

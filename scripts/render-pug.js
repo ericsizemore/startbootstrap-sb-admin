@@ -1,6 +1,6 @@
 'use strict';
 const fs = require('fs');
-const upath = require('upath');
+const upath = require('@ewizardjs/upath');
 const pug = require('pug');
 const sh = require('shelljs');
 const prettier = require('prettier');
